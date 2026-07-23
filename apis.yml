@@ -1,7 +1,29 @@
 aid: asap-work
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/asap-work.png
 name: Asap Work
-description: Asap Work is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Asap.work is a next-generation temporary staffing, permanent placement, and
+  freelance recruitment platform for the French construction and skilled-trades
+  sector (BTP - Batiment et Travaux Publics). It connects tradespeople with
+  short-term missions, permanent roles, and freelance projects through a mobile
+  app and a network of consultants, and layers on worker benefits such as
+  housing assistance, medical consultations, training via asap.academy, and
+  wage advances. The company is backed by speedinvest and is expanding toward
+  the United States. Asap.work publishes no public developer API, developer
+  portal, or API documentation; this profile was added to the API Evangelist
+  network as a portfolio-lead stub and, on enrichment, was confirmed to have no
+  machine-readable API surface (searched 2026-07-18).
 url: https://raw.githubusercontent.com/api-evangelist/asap-work/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,45 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
+x-enrichment-note: Live site searched 2026-07-18; French BTP staffing marketplace with a mobile app, no public API / developer portal / docs; /.well-known/security.txt returned 404.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Staffing
+- Recruitment
+- Construction
+- Temporary Work
+- Marketplace
+- Human Resources
+- France
 apis: []
+common:
+- type: Website
+  url: https://www.asap.work/
+- type: Blog
+  url: https://www.asap.work/ressources
+- type: Support
+  url: https://www.asap.work/contactez-nous
+- type: TermsOfService
+  url: https://www.asap.work/cgu
+- type: PrivacyPolicy
+  url: https://www.asap.work/confidentialite
+- type: x-iOS-App
+  url: https://apps.apple.com/fr/app/asap-work/id6476135409
+- type: x-Android-App
+  url: https://play.google.com/store/apps/details?id=com.asapwork.asapapp&hl=fr
+- type: x-Careers
+  url: https://asapwork.teamtailor.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
