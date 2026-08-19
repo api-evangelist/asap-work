@@ -33,7 +33,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-no-api-surface: true
 x-enrichment-note: Live site searched 2026-07-18; French BTP staffing marketplace with a mobile app, no public API / developer portal / docs; /.well-known/security.txt returned 404.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
