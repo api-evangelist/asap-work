@@ -36,6 +36,8 @@ description: >-
   network as a portfolio-lead stub and, on enrichment, was confirmed to have no
   machine-readable API surface (searched 2026-07-18).
 url: https://raw.githubusercontent.com/api-evangelist/asap-work/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
